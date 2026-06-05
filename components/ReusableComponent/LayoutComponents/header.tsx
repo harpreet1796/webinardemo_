@@ -26,7 +26,7 @@ const Header = (props: Props) => {
                 </div>
             )}
             <div className='flex gap-6 items-center flex-wrap'>
-                <PurpleIcon>
+                <PurpleIcon className='hidden md:block'>
                     <Zap />
                 </PurpleIcon>
                 <CreateWebinarButton />
