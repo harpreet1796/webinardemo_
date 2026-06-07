@@ -22,7 +22,7 @@ const Layout = async ({ children }: Props) => {
 
             {/*MAIN-CONTENT*/}
             <div className='flex flex-col w-full h-screen overflow-auto scrollbar-hide container'>
-                <Header user={userExists} />
+                <Header/>
                 {children}
             </div>
         </div>

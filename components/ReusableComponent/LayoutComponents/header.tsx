@@ -9,9 +9,7 @@ import PurpleIcon from '../PupleIcon'
 import CreateWebinarButton from '../CreateWebinarButton'
 
 
-type Props = { user:User }
-
-const Header = (props: Props) => {
+const Header = () => {
     const pathname = usePathname()
     const router = useRouter()
     return (
