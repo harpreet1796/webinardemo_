@@ -2,11 +2,12 @@
 
 generator client {
   provider = "prisma-client-js"
+  engineType = "client"
+  compilerBuild = "small"
 }
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
 
 enum AttendedTypeEnum {
