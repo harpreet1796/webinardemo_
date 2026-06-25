@@ -5,5 +5,8 @@ This project was made with the motive to learn the fundamentals of next js. This
 ## How to access
 You can access this project at - "https://hackclubwebinardemo.vercel.app/"
 
+## Libraries Used
+Shadcn/ui was used for most styling and components
+
 ## AI Usage
 In this project, the only AI used was Copilot is VS Code, that too just for debugging.
